@@ -10,7 +10,7 @@ function Nacimiento() {
     let fnacimiento= new Date(fNaci)
     let diasem= fnacimiento.getDay()
     console.log(diasem)
-    const dsemana =["Lunes","Martes","Miercoles","Jueves","Viernes","Sábado","Domingo"]
+    const dsemana =["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado"]
     let dsema= fnacimiento.getDay()
     console.log("Tu día de nacimiento fue-"+dsemana[diasem])
     alert("Naciste un día_"+dsemana[diasem])
